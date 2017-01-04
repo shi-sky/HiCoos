@@ -1,5 +1,7 @@
 export class UserModel {
-    ID:number;
-    UserName:string;
-    PassWord:string;
+   constructor(
+    public ID:number,
+    public UserName:string,
+    public PassWord:string
+  ){}
 }

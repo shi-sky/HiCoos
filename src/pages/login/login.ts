@@ -16,6 +16,8 @@ export class LoginPage {
         PassWord:'111111'
     }
     constructor(public NavCtrl:NavController,public LoadCtrl:LoadingController){
+
+
     }
 
 

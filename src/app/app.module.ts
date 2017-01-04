@@ -1,6 +1,8 @@
 import { NgModule, ErrorHandler } from '@angular/core';
-
+import { FormsModule }   from '@angular/forms';
+import {Validators, FormBuilder } from '@angular/forms';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
+
 import { MyApp } from './app.component';
 //欢迎页面
 import { WelcomePage } from '../pages/welcome/welcome';
