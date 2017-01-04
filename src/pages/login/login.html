@@ -1,0 +1,17 @@
+<ion-content padding class="login-bg">
+  <div class="login-logo">
+    <img src="../assets/images/logo.png" />
+  </div>
+  <ion-list inset>
+
+    <ion-item>
+
+      <ion-input type="text" [(ngModel)]="userInfo.UserName" clearInput placeholder="手机号码"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input type="password" [(ngModel)]="userInfo.PassWord" clearInput placeholder="请输入手机验证码"></ion-input>
+    </ion-item>
+
+  </ion-list>
+  <button ion-button block large (click)="btnClick()">Login</button>
+</ion-content>
